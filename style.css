@@ -387,3 +387,308 @@ footer{
     line-height: 30px;
     text-align: center;
 }
+
+@media (min-width: 768px){
+
+    .head{
+        width: 689px;
+        justify-content: space-between;
+        margin-left: 39px;
+    }
+
+    .headline{
+
+        font-size: 44px;
+    }
+    .par1{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        width: 573px;
+        margin-left: 91px;
+    }
+    .cards{
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+    .card1{
+        width: 333px;
+        margin: 0;
+    }
+    .card2{
+        width: 155px;
+        margin: 0;
+    }
+    .card3{
+        width: 155px;
+        margin: 0;
+    }
+    .card4{
+        width: 333px;
+        margin: 0;
+    }
+    .card5{
+        width: 333px;
+        margin: 0;
+    }
+    .card6{
+        width: 333px;
+    }
+    .card23{
+        height: 182px;
+        margin: 0;
+        grid-gap: 24px;
+    }
+    .cardsGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+        grid-gap: 24px;
+    }
+    .grid234{
+        display: grid;
+        grid-gap: 24px;
+    }
+    .girlfoto{
+        position: relative;
+        margin-left: 360px;
+        width: 339px;
+        align-items: start;
+    }
+    .Amy{
+        width: 364px;
+        position: absolute;
+        left: -131%;
+        top: 28px;
+    }
+    .title2{
+        font-size: 32px;
+        line-height: 40px;
+        text-align: start;
+    }
+    .par2{
+        font-size: 18px;
+        line-height: 28px;
+        text-align: start;
+        margin-bottom: 24px;
+    }
+    button{
+        width: 228px;
+        height: 56px;
+    }
+    .imageCont img{
+
+        width: 540px;
+        height: 360px;
+    }
+    .slidtitle{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 56px;
+    }
+    .arrows{
+        margin-bottom: 120px;
+    }
+    .last{
+        width: 690px;
+        margin-bottom: 60px;
+    }
+    .lasttitle{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .par3{
+        font-size: 18px;
+        line-height: 28px;
+        margin-left: 75px;
+        width: 540px;
+    }
+    footer{
+        width: 689px;
+        justify-content: space-between;
+        margin-left: 39px;
+    }
+    .fotoslide{
+        margin-right: 39px;
+    }
+    .headlogo{
+        width: 64px;
+        height: 64px;
+    }
+    .footlogo{
+        width: 64px;
+        height: 64px;
+
+    }
+
+    @media (min-width: 1440px){
+
+    .head{
+        margin-left: 165px;
+        width: 1111px;
+    }
+    
+
+    .headline{
+        font-size: 56px;
+        line-height: 71px;
+        text-align: center;
+        margin-left: 355px;
+        width: 751px;
+    }
+
+    .par1{
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        width: 730px;
+        margin-left: 355px;
+    }
+    .cardsGrid{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 165px;
+       margin-right: 165px;
+       margin-bottom: 206px;
+    }
+    .card1{
+        width: 354px;
+        height: 364px;
+    }
+    .card2{
+        width: 164px;
+    }
+    .card3{
+        width: 164px;
+    }
+    .card4{
+        width: 354px;
+    }
+    .card5{
+        width: 354px;
+        height: 182px;
+    }
+    .card6{
+        width: 354px;
+        height: 158px;
+        margin-bottom: 0;
+    }
+    .grid56{
+        display: grid;
+        grid-gap: 24px;
+    }
+    .grid234{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .card6title{
+        margin: 0;
+        padding-left: 22px;
+    }
+    .Amy{
+        width: 445px;
+        left: -108%;
+        top: -60px;
+    }
+    .girlfoto{
+        width: 540px;
+        height: 306px;
+        margin-left: 735px;
+        margin-bottom: 157px;
+    }
+    .title2{
+        
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 0;
+    }
+    .par2{
+        width: 540px;
+        height: 84px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .btn2{
+        margin-bottom: 0;
+    }
+    .imageCont{
+        margin-bottom: 56px;
+    }
+    .cards{
+        margin: 0;
+    }
+    .slide5{
+        margin-right: 0;
+    }
+    .arrows{
+        margin-bottom: 88px;
+    }
+    .last{
+        display: flex;
+        width: 1110px;
+        height: 320px;
+        margin-left: 165px;
+    }
+    .lastText{
+
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-left: 65px;
+        margin-bottom: 80px;
+    }
+    .lasttitle{
+        text-align: start;
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 25px;
+    }
+    .par3{
+        
+        margin-left: 0;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 0;
+    }
+    .btn3{
+        margin-left: 182px;
+        margin-top: 132px;
+    }
+    footer{
+        margin-left: 165px;
+        width: 1111px;
+    }
+    .btn1:hover{
+        background-color:  rgba(117, 92, 222, 1);
+        cursor: pointer;
+    }
+    }
+    .btn2:hover{
+        background-color: rgba(246, 165, 96, 1);
+        cursor: pointer;
+    }
+
+    .arrowRight:hover{
+
+        background-color: rgba(117, 92, 222, 1);
+        cursor: pointer;
+    }
+    .arrowLeft:hover{
+
+        background-color: rgba(117, 92, 222, 1);
+        cursor: pointer;
+    }
+    .btn3:hover{
+        background-color: rgba(246, 165, 96, 1);
+        cursor: pointer;
+    }
+    .btn4:hover{
+        background-color:  rgba(117, 92, 222, 1);
+        cursor: pointer;
+
+
+}
+}
