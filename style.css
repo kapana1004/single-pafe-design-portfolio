@@ -104,10 +104,35 @@ button{
    margin-bottom: 32px;
    overflow: scroll;
 }
-.imageCont img{
+/* .imageCont img{
 
     width: 270px;
+    border-radius: 10px;
+} */
+
+.slide1{
     margin-right: 15px;
+    width: 270px;
+    border-radius: 10px;
+}
+.slide2{
+    margin-right: 15px;
+    width: 270px;
+    border-radius: 10px;
+}
+.slide3{
+    margin-right: 15px;
+    width: 270px;
+    border-radius: 10px;
+}
+.slide4{
+    margin-right: 15px;
+    width: 270px;
+    border-radius: 10px;
+}
+.slide5{
+    
+    width: 270px;
     border-radius: 10px;
 }
 .arrows{
@@ -180,6 +205,7 @@ button{
 .fotoslide{
 
     margin-bottom: 100px;
+    
 }
 
 .btn3{
@@ -479,6 +505,9 @@ footer{
         width: 228px;
         height: 56px;
     }
+    .imageCont{
+        scroll-behavior: smooth;
+    }
     .imageCont img{
 
         width: 540px;
@@ -690,5 +719,20 @@ footer{
         cursor: pointer;
 
 
+
 }
+.slide1{
+    margin-right: 30px;
+}
+.slide2{
+    margin-right: 30px;
+}
+.slide3{
+    margin-right: 30px;
+}
+.slide4{
+    margin-right: 30px;
+}
+
+
 }
