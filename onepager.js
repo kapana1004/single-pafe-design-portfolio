@@ -15,12 +15,12 @@ sliderLeft.addEventListener("click", function(event){
 
     if(slidePhoto.clientWidth < 300){
 
-        imageSlide.scrollLeft+= 285;
+        imageSlide.scrollLeft-= 285;
 
         console.log(imageSlide);
     }
     else{
-        imageSlide.scrollLeft+= 570;
+        imageSlide.scrollLeft-= 570;
         console.log(sliderLeft);
     }
 
@@ -36,12 +36,12 @@ sliderRight.addEventListener("click", function(event){
 
     if(slidePhoto.clientWidth < 300){
 
-        imageSlide.scrollLeft-= 285;
+        imageSlide.scrollLeft= 285;
 
         console.log(imageSlide);
     }
     else{
-        imageSlide.scrollLeft-= 570;
+        imageSlide.scrollLeft= 570;
         console.log(sliderLeft);
     }
 
